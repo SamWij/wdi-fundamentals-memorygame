@@ -1,6 +1,6 @@
 nav {
 	 background-color: #808080;
-
+	 font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 a  {
@@ -19,20 +19,20 @@ a:hover {
 
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     color: rgb(2, 132, 130);
    	text-align: center;
 	}
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     color: #ffd700;
    	text-align: center;
 	}
 
 p {
-		font-family: Arial, sans-serif;
-		font-size:14px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size:16px;
 
 	}
 
@@ -75,5 +75,22 @@ footer {
         height: 0;
         font-size: 0;
  }
+
+ img {
+ 	height: 200px;
+	width: 150px;
+	
+ }
+  
+
+ button {
+
+	float: left;
+	font-family: 'Lobster', cursive;
+	font-size: 17px;
+	color: #FF4C4C;
+
+
+  }
 
  
