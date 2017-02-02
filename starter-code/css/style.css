@@ -30,6 +30,20 @@ h2 {
    	text-align: center;
 	}
 
+h3 {
+
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #FF4C4C;
+   	text-align: center;
+	}
+
+	h4 {
+
+	    font-family: 'Lobster', cursive;
+	    color: black;
+	   	text-align: left;
+		}
+
 p {
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		font-size:16px;
@@ -40,6 +54,7 @@ p {
 		display: inline-block;
 		height: 50%;
 		width: 50%;
+		padding: 0 200px 0 200px;
 
 	}
 
@@ -49,13 +64,13 @@ p {
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
-	border-radius: 10px;
+	border-radius: 5px;
 	float: left;
-	margin: 8%;
+	margin: 7%;
 }
 
 .name {
-	color: #ff0000; 
+	color: #ff0000;
 
 
 }
@@ -63,6 +78,7 @@ p {
 footer {
 	background-color: #808080;
 	text-align: center;
+	padding: 1.5em 0 1em 0;
 }
 
 
@@ -79,18 +95,39 @@ footer {
  img {
  	height: 200px;
 	width: 150px;
-	
+
  }
-  
 
- button {
 
-	float: left;
+ .new {
+
 	font-family: 'Lobster', cursive;
 	font-size: 17px;
 	color: #FF4C4C;
+	float: center;
+	display: block;
+  }
 
+
+  .next {
+
+	font-family: 'Lobster', cursive;
+	font-size: 17px;
+	color: #FF4C4C;
+	float: right;
+	margin-right: 65px;
 
   }
 
- 
+  .results {
+
+ 	background: white;
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+
+  }
